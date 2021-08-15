@@ -3410,7 +3410,7 @@
       <data name="initial_ssthresh" type="int"> 1400 </data>
       <data name="dl_marker_enabled" type="int"> 0 </data>
       <data name="pnd_rps_mask" type="int"> 2 </data>
-      <data name="vnd_rps_mask" type="int"> 125 </data>
+      <data name="vnd_rps_mask" type="int"> 12 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
       <data name="max_mtu" type="int"> 9216 </data>
       <data name="netmgr_recovery_enabled" type="int"> 1 </data>
@@ -3420,7 +3420,7 @@
       <data type="int"> 0 </data> <!-- MODEM_MDM -->
       </list>
 
-      <data name="control_ports_len" type="int"> 17 </data>
+      <data name="control_ports_len" type="int"> 11 </data>
       <list name="control_ports">
         <data type="string"> rmnet_data0 </data>
         <data type="string"> rmnet_data1 </data>
@@ -3433,15 +3433,9 @@
         <data type="string"> rmnet_data8 </data>
         <data type="string"> rmnet_data9 </data>
         <data type="string"> rmnet_data10 </data>
-        <data type="string"> rmnet_data11 </data>
-        <data type="string"> rmnet_data12 </data>
-        <data type="string"> rmnet_data13 </data>
-        <data type="string"> rmnet_data14 </data>
-        <data type="string"> rmnet_data15 </data>
-        <data type="string"> rmnet_data16 </data>
       </list>
 
-      <data name="data_ports_len" type="int"> 17 </data>
+      <data name="data_ports_len" type="int"> 11 </data>
       <list name="data_ports">
         <data type="string"> rmnet_data0 </data>
         <data type="string"> rmnet_data1 </data>
@@ -3454,19 +3448,13 @@
         <data type="string"> rmnet_data8 </data>
         <data type="string"> rmnet_data9 </data>
         <data type="string"> rmnet_data10 </data>
-        <data type="string"> rmnet_data11 </data>
-        <data type="string"> rmnet_data12 </data>
-        <data type="string"> rmnet_data13 </data>
-        <data type="string"> rmnet_data14 </data>
-        <data type="string"> rmnet_data15 </data>
-        <data type="string"> rmnet_data16 </data>
       </list>
       <!-- Number of above data ports inited on bootup -->
       <data name="static_fwd_links" type="int"> 6 </data>
 
       <!-- iWLAN ports -->
       <data name="iwlan_enable" type="int"> 1 </data>
-      <data name="rev_control_ports_len" type="int"> 16 </data>
+      <data name="rev_control_ports_len" type="int"> 9 </data>
       <list name="rev_control_ports">
         <data type="string"> r_rmnet_data0 </data>
         <data type="string"> r_rmnet_data1 </data>
@@ -3477,16 +3465,9 @@
         <data type="string"> r_rmnet_data6 </data>
         <data type="string"> r_rmnet_data7 </data>
         <data type="string"> r_rmnet_data8 </data>
-        <data type="string"> r_rmnet_data9 </data>
-        <data type="string"> r_rmnet_data10 </data>
-        <data type="string"> r_rmnet_data11 </data>
-        <data type="string"> r_rmnet_data12 </data>
-        <data type="string"> r_rmnet_data13 </data>
-        <data type="string"> r_rmnet_data14 </data>
-        <data type="string"> r_rmnet_data15 </data>
       </list>
 
-      <data name="rev_data_ports_len" type="int"> 16 </data>
+      <data name="rev_data_ports_len" type="int"> 9 </data>
       <list name="rev_data_ports">
         <data type="string"> r_rmnet_data0 </data>
         <data type="string"> r_rmnet_data1 </data>
@@ -3497,13 +3478,6 @@
         <data type="string"> r_rmnet_data6 </data>
         <data type="string"> r_rmnet_data7 </data>
         <data type="string"> r_rmnet_data8 </data>
-        <data type="string"> r_rmnet_data9 </data>
-        <data type="string"> r_rmnet_data10 </data>
-        <data type="string"> r_rmnet_data11 </data>
-        <data type="string"> r_rmnet_data12 </data>
-        <data type="string"> r_rmnet_data13 </data>
-        <data type="string"> r_rmnet_data14 </data>
-        <data type="string"> r_rmnet_data15 </data>
       </list>
       <!-- Number of above reverse data ports inited on bootup -->
       <data name="static_rev_links" type="int"> 4 </data>
